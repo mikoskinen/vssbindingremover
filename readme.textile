@@ -1,0 +1,13 @@
+h2. VSS Binding Remover
+
+VSS Binding remover is a simple Windows software which removes the Visual Source Safe bindings from the Visual Studio projects and solutions. It has been tested with a VS2008 solution but it should work with VS2005 and VS2010 solutions also.
+
+h2. Credits
+
+This program is mostly a copy-paste from the "stackoverflow":http://stackoverflow.com/questions/878409/utility-for-removing-sourcesafe-bindings. Credits for the code goes to: 
+"jeremy":http://stackoverflow.com/users/91814/jeremy
+"juanjo-arana":http://stackoverflow.com/users/207949/juanjo-arana
+
+h2. Homepage
+
+"Link":http://mikaelkoskinen.net/post/VSS-Binding-Remover.aspx
