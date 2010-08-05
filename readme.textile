@@ -8,6 +8,10 @@ This program is mostly a copy-paste from the "stackoverflow":http://stackoverflo
 "jeremy":http://stackoverflow.com/users/91814/jeremy
 "juanjo-arana":http://stackoverflow.com/users/207949/juanjo-arana
 
+h3. Requirements
+
+.NET Framework 3.5 SP1
+
 h2. Homepage
 
 "Link":http://mikaelkoskinen.net/post/VSS-Binding-Remover.aspx
