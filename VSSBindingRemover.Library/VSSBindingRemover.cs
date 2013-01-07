@@ -4,16 +4,16 @@ using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
 
-namespace VSSBindingRemover
+namespace VSSBindingRemover.Library
 {
-    public class VSSRemover
+    public class VSSBindingRemover
     {
         private readonly DirectoryInfo selectedPath;
         private List<FileInfo> slnFiles;
         private List<FileInfo> projFiles;
         private List<FileInfo> vssFiles;
 
-        public VSSRemover(string selectedPath)
+        public VSSBindingRemover(string selectedPath)
         {
             var path = new DirectoryInfo(selectedPath);
             this.selectedPath = path;
