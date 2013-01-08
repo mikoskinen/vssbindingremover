@@ -4,6 +4,8 @@ VSS Binding remover is a simple Windows software which removes the Visual Source
 
 h2. Credits
 
+Big thanks to "Yuri Danilchenko":https://github.com/yuri-danilchenko for the contrib.
+
 This program is mostly a copy-paste from the "stackoverflow":http://stackoverflow.com/questions/878409/utility-for-removing-sourcesafe-bindings. Credits for the code goes to: 
 "jeremy":http://stackoverflow.com/users/91814/jeremy
 "juanjo-arana":http://stackoverflow.com/users/207949/juanjo-arana
