@@ -63,7 +63,7 @@ namespace VSSBindingRemover.Library
                 StreamReader reader = sln.OpenText();
                 String text = reader.ReadToEnd();
                 reader.Close();
-                string regex = @"\tGlobalSection\(SourceCodeControl\) [\s\S]*? EndGlobalSection\r\n";
+                string regex = @"\tGlobalSection\((TeamFoundationVersionControl|SourceCodeControl)\) [\s\S]*? EndGlobalSection\r\n";
                 RegexOptions options = ((RegexOptions.IgnorePatternWhitespace | RegexOptions.Multiline) | RegexOptions.IgnoreCase);
                 Regex reg = new Regex(regex, options);
 
